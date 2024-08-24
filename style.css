@@ -22,3 +22,11 @@ html, body {
     bottom: 10px;
     left: 10px;
 }
+.stair{
+    background-color: red;
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    right: 40%;
+    bottom: 20%;
+}
