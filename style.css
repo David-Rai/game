@@ -8,25 +8,41 @@ html, body {
     height: 100%;
     width: 100%;
 }
-.game{
+main{
     height: 100vh;
     width: 100vw;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: hidden;
 }
+
+.game{
+    height: 90vh;
+     border: 2px solid black;
+     width: 30vw;
+    position: relative;
+    overflow: hidden;
+    background-image: url(doodlejumpbg.png);
+}
 .character{
-    background-color:black;
-    height: 100px;
+    height: 60px;
     width: 40px;
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 0px;
+    display: flex;
+    align-items:end;
+    justify-content: center;
+}
+.character img{
+height: 60%;
 }
 .stair{
-    background-color: red;
-    height: 40px;
-    width: 200px;
+    height: 20px;
+    width: 100px;
+     background-position: center;
+     background-size: contain   ;
+     background-repeat: no-repeat;
     position: absolute;
-    right: 40%;
-    bottom: 20%;
+    background-image: url(assest/platform.png);
 }
